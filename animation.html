@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mobile Nav</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Your name">
+  <meta name="description" content="Brief description">
+
+  <meta property="og:title" content="Mobile Nav">
+  <meta property="og:description" content="Brief description">
+  <meta property="og:image" content="/some-image.png">
+  <meta property="og:url" content="/this-page.html">
+  <meta property="og:site_name" content="Your Site Name">
+
+  <link href="animation.css" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+
+  <button id="trigger">Animate</button>
+
+  <div class="animation-container">
+
+  </div>
+
+   <script type="text/javascript">
+     const triggerButton = document.querySelector('#trigger');
+     const animationContainer = document.querySelector('.animation-container');
+
+     triggerButton.addEventListener('click', (e) => {
+       if (animationContainer.style.transform === 'translateX(0px)') {
+         animationContainer.style.transform = 'translateX(-100%)';
+       } else {
+         animationContainer.style.transform = 'translateX(0)';
+       }
+     })
+   </script>
+</body>
+</html>
