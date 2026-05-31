@@ -322,7 +322,7 @@ nav {
 }
 
 .nav-links a[aria-current="page"] {
-    color: #6366F1;
+    color: #1E7BFF;
     font-weight: 600;
     text-decoration: underline;
 }
