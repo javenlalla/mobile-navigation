@@ -281,11 +281,12 @@
 /*******Styling*******/
 
 body {
-    background-color: #EDECEA;
+    background-color: #0D0F14;
+    color: #F1F1F5;
 }
 
 header {
-    background-color: gray;
+    background-color: #14161C;
 }
 
 nav {
@@ -310,7 +311,7 @@ nav {
     flex-direction: column;
     visibility: hidden;
     padding: .5rem 1rem;
-    background-color: gray;
+    background-color: #14161C;
     transform: translateX(100%);
     transition: all 250ms ease-in-out;
 }
