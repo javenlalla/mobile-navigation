@@ -311,11 +311,17 @@ nav {
     flex-direction: column;
     visibility: hidden;
     padding: .5rem 1rem;
+    width: 50%;
     background-color: #14161C;
     transform: translateX(100%);
     transition: all 250ms ease-in-out;
 }
 
+.nav-links li {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #A1A1AA;
+}
 
 .nav-links a {
     padding: .5rem 1rem;
