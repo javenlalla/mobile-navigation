@@ -321,6 +321,12 @@ nav {
     padding: .5rem 1rem;
 }
 
+.nav-links a[aria-current="page"] {
+    color: #6366F1;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 .nav-links[data-open="true"] {
     visibility: visible;
     transform: translateX(0);
